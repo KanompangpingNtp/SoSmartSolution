@@ -40,6 +40,16 @@
     border: 4px solid #2e7ed2; /* เส้นขอบสีน้ำเงิน */
     object-fit: cover; /* ปรับขนาดรูปให้พอดีกับกรอบ */
 }
+.bg-white-overflow {
+    border-radius: 20px;
+    overflow-x: auto; /* อนุญาตให้เลื่อนแนวนอน */
+    overflow-y: hidden; /* ซ่อนการเลื่อนแนวตั้ง */
+    white-space: nowrap; /* ป้องกันการขึ้นบรรทัดใหม่ */
+    max-width: 100%; /* จำกัดความกว้างให้ไม่เกิน container */
+    padding-bottom: 10px; /* ป้องกัน scrollbar ทับเนื้อหา */
+    box-shadow: 4px 4px 10px #000000;
+}
+
 
 </style>
 
@@ -52,18 +62,28 @@
         <div class="text-sub text-center">
             SOS มีทีมซัพพอร์ตของเรามุ่งมั่นช่วยเหลือคุณในทุกสถานการณ์ ด้วยความเชี่ยวชาญและประสบการณ์ในการดูแลลูกค้า เราพร้อมให้คำปรึกษาและแก้ไขปัญหาอย่างรวดเร็ว
         </div>
-        <div class="bg-white p-3" style="border-radius: 20px;">
-            <div class="row">
-                <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+        <div class="bg-white p-3 bg-white-overflow mt-5">
+            <div class="d-flex gap-4 flex-nowrap overflow-auto pb-3">
+                @for ($i = 0; $i < 10; $i++)
+                <!-- คอลัมน์แรก -->
+                <div class="d-flex flex-column align-items-center">
                     <img src="{{asset('images/pages/section-5/บอส.png')}}" alt="img-person" class="img-circle-border">
-
                     <div class="bg-text p-2 text-white lh-1 rounded mt-2">
-                        Name <br>
-                        <span class="text-dark">class</span>
+                        Name 1 <br>
+                        <span class="text-dark">class 1</span>
+                    </div>
+        
+                    <img src="{{asset('images/pages/section-5/บอส.png')}}" alt="img-person" class="img-circle-border mt-4">
+                    <div class="bg-text p-2 text-white lh-1 rounded mt-2">
+                        Name 2 <br>
+                        <span class="text-dark">class 2</span>
                     </div>
                 </div>
+                @endfor
             </div>
         </div>
+        
+        
     </div>
     
 </main>
