@@ -3,4 +3,8 @@
 @section('content')
     @include('pages.components.section-1')
     @include('pages.components.section-2')
+    @include('pages.components.section-3')
+    @include('pages.components.section-4')
+    @include('pages.components.section-5')
+    @include('pages.components.section-6')
 @endsection
