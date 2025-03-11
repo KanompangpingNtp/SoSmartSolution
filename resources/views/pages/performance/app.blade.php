@@ -85,9 +85,9 @@
         </div>
         <div class="container">
             <!-- แถวของรูปภาพ -->
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-start align-items-center">
                 <div class="col-md-6 col-lg-3 text-center p-3">
-                    <img src="{{ asset('images/pages/section-2/Group 1.png') }}" alt="card" class="img-fluid zoom-image"
+                    <img src="{{ asset('images/pages/section-2/Group 1.png') }}" alt="card" class="img-fluid zoom-image w-100"
                         data-bs-toggle="modal" data-bs-target="#imageModal"
                         data-image="{{ asset('images/pages/section-2/Group 1.png') }}">
                     <div class="bg-dark text-white p-3" style="border-radius: 20px;">
@@ -96,16 +96,16 @@
                 </div>
 
                 <div class="col-md-6 col-lg-3 text-center p-3">
-                    <img src="{{ asset('images/pages/section-2/Group 2.png') }}" alt="card" class="img-fluid zoom-image"
+                    <img src="{{ asset('images/pages/performance/อบต.พระอาจารย์.png') }}" alt="card" class="img-fluid zoom-image w-100"
                         data-bs-toggle="modal" data-bs-target="#imageModal"
-                        data-image="{{ asset('images/pages/section-2/Group 2.png') }}">
+                        data-image="{{ asset('images/pages/performance/อบต.พระอาจารย์.png') }}">
                     <div class="bg-dark text-white p-3" style="border-radius: 20px;">
                         อบต.พระอาจารย์
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3 text-center p-3">
-                    <img src="{{ asset('images/pages/section-2/Group 3.png') }}" alt="card" class="img-fluid zoom-image"
+                    <img src="{{ asset('images/pages/section-2/Group 3.png') }}" alt="card" class="img-fluid zoom-image w-100"
                         data-bs-toggle="modal" data-bs-target="#imageModal"
                         data-image="{{ asset('images/pages/section-2/Group 3.png') }}">
                     <div class="bg-dark text-white p-3" style="border-radius: 20px;">
@@ -114,81 +114,68 @@
                 </div>
 
                 <div class="col-md-6 col-lg-3 text-center p-3">
-                    <img src="{{ asset('images/pages/section-2/Group 4.png') }}" alt="card" class="img-fluid zoom-image"
+                    <img src="{{ asset('images/pages/performance/อบต.บางแก้ว.png') }}" alt="card" class="img-fluid zoom-image w-100"
                         data-bs-toggle="modal" data-bs-target="#imageModal"
-                        data-image="{{ asset('images/pages/section-2/Group 4.png') }}">
+                        data-image="{{ asset('images/pages/performance/อบต.บางแก้ว.png') }}">
                     <div class="bg-dark text-white p-3" style="border-radius: 20px;">
                         อบต.บางแก้ว
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 text-center p-3">
-                    <img src="{{ asset('images/pages/section-2/Group 1.png') }}" alt="card" class="img-fluid zoom-image"
-                        data-bs-toggle="modal" data-bs-target="#imageModal"
-                        data-image="{{ asset('images/pages/section-2/Group 1.png') }}">
-                    <div class="bg-dark text-white p-3" style="border-radius: 20px;">
-                        อบต.เสม็ตใต้
-                    </div>
-                </div>
 
                 <div class="col-md-6 col-lg-3 text-center p-3">
-                    <img src="{{ asset('images/pages/section-2/Group 2.png') }}" alt="card" class="img-fluid zoom-image"
+                    <img src="{{ asset('images/pages/performance/อบต.ทับพริก.png') }}" alt="card" class="img-fluid zoom-image w-100"
                         data-bs-toggle="modal" data-bs-target="#imageModal"
-                        data-image="{{ asset('images/pages/section-2/Group 2.png') }}">
+                        data-image="{{ asset('images/pages/performance/อบต.ทับพริก.png') }}">
                     <div class="bg-dark text-white p-3" style="border-radius: 20px;">
-                        อบต.พระอาจารย์
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3 text-center p-3">
-                    <img src="{{ asset('images/pages/section-2/Group 3.png') }}" alt="card" class="img-fluid zoom-image"
-                        data-bs-toggle="modal" data-bs-target="#imageModal"
-                        data-image="{{ asset('images/pages/section-2/Group 3.png') }}">
-                    <div class="bg-dark text-white p-3" style="border-radius: 20px;">
-                        รร.บ้านหนองโสน
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3 text-center p-3">
-                    <img src="{{ asset('images/pages/section-2/Group 4.png') }}" alt="card" class="img-fluid zoom-image"
-                        data-bs-toggle="modal" data-bs-target="#imageModal"
-                        data-image="{{ asset('images/pages/section-2/Group 4.png') }}">
-                    <div class="bg-dark text-white p-3" style="border-radius: 20px;">
-                        อบต.บางแก้ว
+                        อบต.ทับพริก
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center p-3">
-                    <img src="{{ asset('images/pages/section-2/Group 1.png') }}" alt="card" class="img-fluid zoom-image"
+                    <img src="{{ asset('images/pages/performance/อบต.แปลงยาว.png') }}" alt="card" class="img-fluid zoom-image w-100"
                         data-bs-toggle="modal" data-bs-target="#imageModal"
-                        data-image="{{ asset('images/pages/section-2/Group 1.png') }}">
+                        data-image="{{ asset('images/pages/performance/อบต.แปลงยาว.png') }}">
                     <div class="bg-dark text-white p-3" style="border-radius: 20px;">
-                        อบต.เสม็ตใต้
+                        อบต.แปลงยาว
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-3 text-center p-3">
-                    <img src="{{ asset('images/pages/section-2/Group 2.png') }}" alt="card" class="img-fluid zoom-image"
+                    <img src="{{ asset('images/pages/performance/บึงบูรพาฟิชชิ่งปาร์ค.png') }}" alt="card" class="img-fluid zoom-image w-100"
                         data-bs-toggle="modal" data-bs-target="#imageModal"
-                        data-image="{{ asset('images/pages/section-2/Group 2.png') }}">
+                        data-image="{{ asset('images/pages/performance/บึงบูรพาฟิชชิ่งปาร์ค.png') }}">
                     <div class="bg-dark text-white p-3" style="border-radius: 20px;">
-                        อบต.พระอาจารย์
+                        บึงบูรพาฟิชชิ่งปาร์ค
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-3 text-center p-3">
-                    <img src="{{ asset('images/pages/section-2/Group 3.png') }}" alt="card" class="img-fluid zoom-image"
+                    <img src="{{ asset('images/pages/performance/บ.จองไถ่หลีเย่จำกัด.png') }}" alt="card" class="img-fluid zoom-image w-100"
                         data-bs-toggle="modal" data-bs-target="#imageModal"
-                        data-image="{{ asset('images/pages/section-2/Group 3.png') }}">
+                        data-image="{{ asset('images/pages/performance/บ.จองไถ่หลีเย่จำกัด.png') }}">
                     <div class="bg-dark text-white p-3" style="border-radius: 20px;">
-                        รร.บ้านหนองโสน
+                        บ.จองไถ่หลีเย่จำกัด
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-3 text-center p-3">
-                    <img src="{{ asset('images/pages/section-2/Group 4.png') }}" alt="card" class="img-fluid zoom-image"
+                    <img src="{{ asset('images/pages/performance/paradise_express.png') }}" alt="card" class="img-fluid zoom-image w-100"
                         data-bs-toggle="modal" data-bs-target="#imageModal"
-                        data-image="{{ asset('images/pages/section-2/Group 4.png') }}">
+                        data-image="{{ asset('images/pages/performance/paradise_express.png') }}">
                     <div class="bg-dark text-white p-3" style="border-radius: 20px;">
-                        อบต.บางแก้ว
+                        Paradise Express
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center p-3">
+                    <img src="{{ asset('images/pages/performance/ทบ.จันทบุรี.png') }}" alt="card" class="img-fluid zoom-image w-100"
+                        data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="{{ asset('images/pages/performance/ทบ.จันทบุรี.png') }}">
+                    <div class="bg-dark text-white p-3" style="border-radius: 20px;">
+                        ทบ.จันทบุรี
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center p-3">
+                    <img src="{{ asset('images/pages/performance/อบต.เกวียนหัก.png') }}" alt="card" class="img-fluid zoom-image w-100"
+                        data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="{{ asset('images/pages/performance/อบต.เกวียนหัก.png') }}">
+                    <div class="bg-dark text-white p-3" style="border-radius: 20px;">
+                        อบต.เกวียนหัก
                     </div>
                 </div>
             </div>
