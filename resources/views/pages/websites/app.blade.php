@@ -128,6 +128,36 @@
                             class="img-fluid rounded shadow-custom">
                     </a>
                 </div>
+                <div class="col-md-6 col-lg-4 text-center p-3">
+                    <a href="#">
+                        <img src="{{ asset('images/pages/websites/บ.จองไถ่หลีเย่จำกัด.png') }}" alt="banner"
+                            class="img-fluid rounded shadow-custom">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center p-3">
+                    <a href="#">
+                        <img src="{{ asset('images/pages/websites/อบต.คลองบ้านโพธิ์.png') }}" alt="banner"
+                            class="img-fluid rounded shadow-custom">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center p-3">
+                    <a href="#">
+                        <img src="{{ asset('images/pages/websites/อบต.คลองขุด.png') }}" alt="banner"
+                            class="img-fluid rounded shadow-custom">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center p-3">
+                    <a href="#">
+                        <img src="{{ asset('images/pages/websites/ทต.เกวียนหัก.png') }}" alt="banner"
+                            class="img-fluid rounded shadow-custom">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center p-3">
+                    <a href="#">
+                        <img src="{{ asset('images/pages/websites/อบต.คลองอุดมชลจร.png') }}" alt="banner"
+                            class="img-fluid rounded shadow-custom">
+                    </a>
+                </div>
             </div>
         </div>
     </main>

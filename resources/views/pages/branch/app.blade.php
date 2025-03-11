@@ -103,7 +103,7 @@
         </div>
         <div class="container">
             <!-- แถวของรูปภาพ -->
-            <div class="row justify-content-center align-items-start">
+            <div class="row justify-content-start align-items-start">
                 <div class="col-md-6 col-lg-3 text-center p-3 d-flex flex-column justify-content-center align-items-start">
                     <!-- รูปภาพ -->
                     <img src="{{ asset('images/pages/branch/ภาคเหนือ.png') }}" alt="card" class="img-fluid ">
@@ -220,6 +220,15 @@
 
                 <div class="col-md-6 col-lg-3 text-center p-3 d-flex flex-column justify-content-center align-items-start">
                     <img src="{{ asset('images/pages/branch/ภาคตะวันตก.png') }}" alt="card" class="img-fluid">
+                </div>
+                <div class="col-md-6 col-lg-3 text-center p-3 d-flex flex-column justify-content-center align-items-start">
+                    <img src="{{ asset('images/pages/branch/ภาคใต้.png') }}" alt="card" class="img-fluid">
+                </div>
+                <div class="col-md-6 col-lg-3 text-center p-3 d-flex flex-column justify-content-center align-items-start">
+                    <img src="{{ asset('images/pages/branch/กรุงทพและปริมณทล.png') }}" alt="card" class="img-fluid">
+                </div>
+                <div class="col-md-6 col-lg-3 text-center p-3 d-flex flex-column justify-content-center align-items-start">
+                    <img src="{{ asset('images/pages/branch/ภาคตะวันออกเฉียงเหนือ.png') }}" alt="card" class="img-fluid">
                 </div>
 
             </div>
