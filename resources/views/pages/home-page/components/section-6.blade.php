@@ -4,7 +4,8 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        min-height: 70vh;
+        min-height: 20vh;
+        padding: 3rem 0;
         width: 100%;
     }
 
@@ -31,7 +32,7 @@
 </style>
 
 <main class="bg-section6 d-flex flex-column justify-content-start align-items-center gap-3 pb-5 pt-1">
-    <div class="text-title6 mt-5 mt-xl-0">
+    <div class="text-title6 py-3 text-center mt-5 mt-xl-0 w-100" style="box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);">
         <img src="{{ asset('images/pages/section-3/ดาว.png') }}" alt="star" class="star-icon">
         ติดต่อ
     </div>
