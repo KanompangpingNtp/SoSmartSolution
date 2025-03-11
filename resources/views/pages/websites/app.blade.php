@@ -73,7 +73,7 @@
         </div>
         <div class="container">
             <!-- แถวของรูปภาพ -->
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-start align-items-center">
                 <div class="col-md-6 col-lg-4 text-center p-3">
                     <a href="#">
                         <img src="{{ asset('images/pages/websites/paradise.png') }}" alt="banner"
