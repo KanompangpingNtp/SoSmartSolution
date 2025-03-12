@@ -45,7 +45,7 @@
 <main class="bg-section3 d-flex flex-column justify-content-center align-items-center gap-3">
     <div class="text-title3">
         <img src="{{ asset('images/pages/section-3/ดาว.png') }}" alt="star" class="star-icon">
-        กระบวนการ
+        เบื้องหลัง
     </div>
     <div class="container d-flex flex-column flex-lg-row justify-content-center align-items-center">
         <div class="row justify-content-center">
