@@ -74,24 +74,66 @@
         </div>
         <div class="bg-white p-3 bg-white-overflow mt-5">
             <div class="d-flex gap-4 flex-nowrap overflow-auto pb-3">
-                @for ($i = 0; $i < 10; $i++)
-                    <!-- คอลัมน์แรก -->
-                    <div class="d-flex flex-column align-items-center">
-                        <img src="{{ asset('images/pages/section-5/บอส.png') }}" alt="img-person"
+                    <div class="d-flex flex-column align-items-center justify-content-start">
+                        <img src="{{ asset('images/pages/section-5/ออย.png') }}" alt="img-person"
                             class="img-circle-border">
-                        <div class="bg-text p-2 text-white lh-1 rounded mt-2">
-                            Name 1 <br>
-                            <span class="text-dark">class 1</span>
+                        <div class="bg-text text-center w-100 p-2 text-white lh-sm rounded mt-2"  style="font-size:18px;">
+                            ณัฐพงษ์ วังสูงเนิน <br>
+                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">Black-End Developer</span>
                         </div>
 
                         <img src="{{ asset('images/pages/section-5/บอส.png') }}" alt="img-person"
                             class="img-circle-border mt-4">
-                        <div class="bg-text p-2 text-white lh-1 rounded mt-2">
-                            Name 2 <br>
-                            <span class="text-dark">class 2</span>
+                        <div class="bg-text text-center w-100 p-2 text-white lh-sm rounded mt-2"  style="font-size:18px;">
+                            ณัฐชนน สีเหลียม <br>
+                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">Graphic Design</span>
                         </div>
                     </div>
-                @endfor
+                    <div class="d-flex flex-column align-items-center justify-content-start">
+                        <img src="{{ asset('images/pages/section-5/N.png') }}" alt="img-person"
+                            class="img-circle-border">
+                        <div class="bg-text text-center w-100 p-2 text-white lh-sm  rounded mt-2 " style="font-size:18px;">
+                            กมลาสน์ กลิ่นด้วง <br>
+                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">Front-End Developer</span>
+                        </div>
+
+                        <img src="{{ asset('images/pages/section-5/เก้า.png') }}" alt="img-person"
+                            class="img-circle-border mt-4">
+                        <div class="bg-text text-center w-100 p-2 text-white lh-sm  rounded mt-2 " style="font-size:18px;">
+                            อดิศร ก้อนเงิน <br>
+                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">Graphic Design</span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center justify-content-start">
+                        <img src="{{ asset('images/pages/section-5/รุ่งนภา.png') }}" alt="img-person"
+                            class="img-circle-border">
+                        <div class="bg-text text-center w-100 p-2 text-white lh-sm  rounded mt-2 " style="font-size:18px;">
+                            รุ่งนภา พรมมี <br>
+                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">Account Executive</span>
+                        </div>
+
+                        <img src="{{ asset('images/pages/section-5/ปิยะพร.png') }}" alt="img-person"
+                            class="img-circle-border mt-4">
+                        <div class="bg-text text-center w-100 p-2 text-white lh-sm  rounded mt-2 " style="font-size:18px;">
+                            ปิยะพร คำเกิ่ง <br>
+                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">ลูกค้าสัมพันธ์</span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center justify-content-start">
+                        <img src="{{ asset('images/pages/section-5/พรชนา.png') }}" alt="img-person"
+                            class="img-circle-border">
+                        <div class="bg-text text-center w-100 p-2 text-white lh-sm  rounded mt-2 " style="font-size:18px;">
+                            พรชนา คงฉาย <br>
+                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">ผู้จัดการลูกค้าสัมพันธ์</span>
+                        </div>
+
+                        <img src="{{ asset('images/pages/section-5/วารุณี.png') }}" alt="img-person"
+                            class="img-circle-border mt-4">
+                        <div class="bg-text text-center w-100 p-2 text-white lh-sm  rounded mt-2 " style="font-size:18px;">
+                            วารุณี โตมานิตย์ <br>
+                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">ผู้จัดการฝ่ายขาย</span>
+                        </div>
+                    </div>
             </div>
         </div>
 
