@@ -55,18 +55,6 @@
             <div class="col-6 col-md-4 d-flex justify-content-center">
                 <img src="{{asset('images/pages/section-3/2.png')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
             </div>
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-                <img src="{{asset('images/pages/section-3/3.png')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
-            </div>
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-                <img src="{{asset('images/pages/section-3/4.png')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
-            </div>
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-                <img src="{{asset('images/pages/section-3/5.png')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
-            </div>
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-                <img src="{{asset('images/pages/section-3/6.png')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
-            </div>
         </div>
     </div>
     <div class="container">
