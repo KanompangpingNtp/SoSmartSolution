@@ -116,7 +116,7 @@
                             class="img-circle-border mt-4">
                         <div class="bg-text text-center w-100 px-2 text-white lh-sm  rounded mt-2 " style="font-size:18px; padding-top:1.25rem; padding-bottom:1.25rem;">
                             เอกไพริน ลิ้มเที่ยงตรง <br>
-                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">Account Executive</span>
+                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">ที่ปรึกษาอาวุโส</span>
                         </div>
                     </div>
                     <div class="d-flex flex-column align-items-center justify-content-start">
@@ -124,7 +124,7 @@
                             class="img-circle-border">
                         <div class="bg-text text-center w-100 px-2 text-white lh-sm  rounded mt-2 " style="font-size:18px; padding-top:1.25rem; padding-bottom:1.25rem;">
                             รุ่งนภา พรมมี <br>
-                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">Account Executive</span>
+                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">ซัพพอร์ต</span>
                         </div>
                         <img src="{{ asset('images/pages/section-5/พรชนา.png') }}" alt="img-person"
                             class="img-circle-border mt-4">
@@ -146,6 +146,21 @@
                         <div class="bg-text text-center w-100 px-2 text-white lh-sm  rounded mt-2 "style="font-size:18px; padding-top:1.25rem; padding-bottom:1.25rem;">
                             วารุณี โตมานิตย์ <br>
                             <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">ผู้จัดการฝ่ายขาย</span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center justify-content-start">
+                        <img src="{{ asset('images/pages/section-5/สุภาพร.png') }}" alt="img-person"
+                            class="img-circle-border ">
+                        <div class="bg-text text-center w-100 px-2 text-white lh-sm  rounded mt-2 " style="font-size:18px; padding-top:1.25rem; padding-bottom:1.25rem;">
+                            สุภาพร ฉิมทอง <br>
+                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">ผู้จัดการฝ่ายe-GP</span>
+                        </div>
+
+                        <img src="{{ asset('images/pages/section-5/พิมพ์มาดา.png') }}" alt="img-person"
+                            class="img-circle-border mt-4">
+                        <div class="bg-text text-center w-100 px-2 text-white lh-sm  rounded mt-2 "style="font-size:18px; padding-top:1.25rem; padding-bottom:1.25rem;">
+                            พิมพ์มาดา เอกพจน์ <br>
+                            <span class="text-dark fw-bold" style="text-shadow: 1px 1px 3px #ffffff;">ประชาสัมพันธ์</span>
                         </div>
                     </div>
             </div>
