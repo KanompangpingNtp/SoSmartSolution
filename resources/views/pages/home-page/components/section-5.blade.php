@@ -165,7 +165,7 @@
                     </div>
             </div>
         </div> --}}
-        <img src="{{ asset('images/pages/section-5/member-sos.jpg') }}" alt="img-member" class="img-fluid my-4">
+        <img src="{{ asset('images/pages/section-5/member-sosss.jpg') }}" alt="img-member" class="img-fluid my-4">
 
 
     </div>
