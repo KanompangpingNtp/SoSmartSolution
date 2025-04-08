@@ -36,7 +36,7 @@
 }
 
 .hover-scale:hover {
-    transform: scale(1.1); /* ขยายใหญ่ขึ้น 10% */
+    transform: scale(1.02); /* ขยายใหญ่ขึ้น 10% */
     box-shadow: 0px 8px 20px rgba(255, 255, 255, 1); /* เพิ่มเงาเมื่อ hover */
 }
 
@@ -48,15 +48,18 @@
         กิจกรรม CSR
     </div>
     <div class="container d-flex flex-column flex-lg-row justify-content-center align-items-center">
-        <div class="row justify-content-center">
-            <div class="col-6 col-md-4 d-flex justify-content-center">
+        <div class="row justify-content-center align-items-start">
+            <div class="col-6 col-md-4 d-flex flex-column justify-content-center align-items-start text-center">
                 <img src="{{asset('images/pages/section-4/1.jpg')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
+                <p class="fs-6 rounded-4 w-100 px-2 py-2">ช่วยสนับสนุนการวางระบบซิตี้เพื่อส่งเสริมความเป็นอยู่ที่ดีในชุมชนในหัว้ข้อ สมาร์ทพีเพิล</p>
             </div>
-            <div class="col-6 col-md-4 d-flex justify-content-center">
+            <div class="col-6 col-md-4 d-flex flex-column justify-content-center align-items-start text-center">
                 <img src="{{asset('images/pages/section-4/2.jpg')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
+                <p class="fs-5 rounded-4 w-100 px-2 py-3">ให้ทุนอาหารกลางวันเด็ก</p>
             </div>
-            <div class="col-12 col-md-4 d-flex justify-content-center">
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-start text-center">
                 <img src="{{asset('images/pages/section-4/3.jpg')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
+                <p class="fs-5 rounded-4 w-100 px-2">ให้ความรู้กับหน่วยงานราชการเรื่องการจัดการเอกสารอิเล็กทรอนิกส์</p>
             </div>
         </div>
     </div>
