@@ -72,7 +72,7 @@
             SOS มีทีมซัพพอร์ตของเรามุ่งมั่นช่วยเหลือคุณในทุกสถานการณ์ ด้วยความเชี่ยวชาญและประสบการณ์ในการดูแลลูกค้า
             เราพร้อมให้คำปรึกษาและแก้ไขปัญหาอย่างรวดเร็ว
         </div>
-        <div class="bg-white p-3 bg-white-overflow mt-5">
+        {{-- <div class="bg-white p-3 bg-white-overflow mt-5">
             <div class="d-flex gap-4 flex-nowrap overflow-auto pb-3">
                     <div class="d-flex flex-column align-items-center justify-content-start">
                         <img src="{{ asset('images/pages/section-5/ออย.png') }}" alt="img-person"
@@ -164,7 +164,8 @@
                         </div>
                     </div>
             </div>
-        </div>
+        </div> --}}
+        <img src="{{ asset('images/pages/section-5/member-sos.jpg') }}" alt="img-member" class="img-fluid my-4">
 
 
     </div>

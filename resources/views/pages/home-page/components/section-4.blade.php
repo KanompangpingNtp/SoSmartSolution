@@ -50,10 +50,13 @@
     <div class="container d-flex flex-column flex-lg-row justify-content-center align-items-center">
         <div class="row justify-content-center">
             <div class="col-6 col-md-4 d-flex justify-content-center">
-                <img src="{{asset('images/pages/section-3/1.png')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
+                <img src="{{asset('images/pages/section-4/1.jpg')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
             </div>
             <div class="col-6 col-md-4 d-flex justify-content-center">
-                <img src="{{asset('images/pages/section-3/2.png')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
+                <img src="{{asset('images/pages/section-4/2.jpg')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
+            </div>
+            <div class="col-12 col-md-4 d-flex justify-content-center">
+                <img src="{{asset('images/pages/section-4/3.jpg')}}" alt="image" class="img-fluid mb-3 shadow-white hover-scale">
             </div>
         </div>
     </div>
