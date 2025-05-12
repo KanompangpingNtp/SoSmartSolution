@@ -30,51 +30,59 @@
     }
 
     .shadow-white {
-    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.8); /* เงาสีขาว */
-    border-radius: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+        box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.8);
+        /* เงาสีขาว */
+        border-radius: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
     /* ปุ่มเลื่อน */
-.swiper-button-prev,
-.swiper-button-next {
-    width: 50px;
-    height: 50px;
-    padding: 30px;
-    background: rgba(0, 0, 0, 0.6); /* พื้นหลังโปร่งแสง */
-    border-radius: 50%;
-    color: white; /* เปลี่ยนสีไอคอนเป็นสีขาว */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s ease-in-out;
-}
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 50px;
+        height: 50px;
+        padding: 30px;
+        background: rgba(0, 0, 0, 0.6);
+        /* พื้นหลังโปร่งแสง */
+        border-radius: 50%;
+        color: white;
+        /* เปลี่ยนสีไอคอนเป็นสีขาว */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+    }
 
-.swiper-button-prev::after,
-.swiper-button-next::after {
-    font-size: 24px; /* ขยายขนาดไอคอน */
-}
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-size: 24px;
+        /* ขยายขนาดไอคอน */
+    }
 
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-    background: rgba(0, 0, 0, 0.9); /* เปลี่ยนเป็นสีเข้มขึ้นเมื่อ Hover */
-    transform: scale(1.1); /* ขยายขนาดเล็กน้อย */
-}
+    .swiper-button-prev:hover,
+    .swiper-button-next:hover {
+        background: rgba(0, 0, 0, 0.9);
+        /* เปลี่ยนเป็นสีเข้มขึ้นเมื่อ Hover */
+        transform: scale(1.1);
+        /* ขยายขนาดเล็กน้อย */
+    }
 
-/* จุดบอกตำแหน่ง */
-.swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background: rgba(255, 255, 255, 0.6); /* สีขาวโปร่งแสง */
-    opacity: 1;
-    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
+    /* จุดบอกตำแหน่ง */
+    .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background: rgba(255, 255, 255, 0.6);
+        /* สีขาวโปร่งแสง */
+        opacity: 1;
+        transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
 
-.swiper-pagination-bullet-active {
-    background: white; /* เปลี่ยนเป็นสีขาวเมื่อเป็นจุดที่กำลังแสดง */
-    transform: scale(1.3); /* ขยายขนาดจุดที่เลือก */
-}
-
-
+    .swiper-pagination-bullet-active {
+        background: white;
+        /* เปลี่ยนเป็นสีขาวเมื่อเป็นจุดที่กำลังแสดง */
+        transform: scale(1.3);
+        /* ขยายขนาดจุดที่เลือก */
+    }
 </style>
 <!-- Swiper CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
@@ -89,12 +97,16 @@
     <div class="container d-flex justify-content-center align-items-center">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="{{asset('images/pages/section-7/1.png')}}" alt="รูปที่ 1" class="img-fluid"></div>
-                <div class="swiper-slide"><img src="{{asset('images/pages/section-7/2.png')}}" alt="รูปที่ 2" class="img-fluid"></div>
-                <div class="swiper-slide"><img src="{{asset('images/pages/section-7/3.png')}}" alt="รูปที่ 3" class="img-fluid"></div>
-                <div class="swiper-slide"><img src="{{asset('images/pages/section-7/4.png')}}" alt="รูปที่ 4" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="{{ asset('images/pages/section-7/1.png') }}" alt="รูปที่ 1"
+                        class="img-fluid"></div>
+                <div class="swiper-slide"><img src="{{ asset('images/pages/section-7/2.png') }}" alt="รูปที่ 2"
+                        class="img-fluid"></div>
+                <div class="swiper-slide"><img src="{{ asset('images/pages/section-7/3.png') }}" alt="รูปที่ 3"
+                        class="img-fluid"></div>
+                <div class="swiper-slide"><img src="{{ asset('images/pages/section-7/4.png') }}" alt="รูปที่ 4"
+                        class="img-fluid"></div>
             </div>
-    
+
             <!-- ปุ่มเลื่อนซ้าย -->
             <div class="swiper-button-prev"></div>
             <!-- ปุ่มเลื่อนขวา -->
@@ -116,8 +128,12 @@
                 clickable: true,
             },
             breakpoints: {
-                991: { slidesPerView: 2 }, // จอใหญ่แสดง 2 รูป
-                0: { slidesPerView: 1 }, // จอเล็กแสดง 1 รูป
+                991: {
+                    slidesPerView: 2
+                }, // จอใหญ่แสดง 2 รูป
+                0: {
+                    slidesPerView: 1
+                }, // จอเล็กแสดง 1 รูป
             }
         });
     </script>
