@@ -87,6 +87,7 @@
             z-index: 9999;
             /* ให้แน่ใจว่าอยู่ด้านบนสุด */
         }
+
     </style>
 </head>
 
@@ -165,6 +166,7 @@
                 color: white;
                 font-size: 12px;
             }
+
         </style>
     </div>
 
@@ -182,32 +184,29 @@
                 </a>
 
                 <!-- Hamburger Menu -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!-- Nav Links -->
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">หน้าแรก</a>
+                            <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="{{ route('Index') }}">หน้าแรก</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ผลงาน</a>
+                            <a class="nav-link {{ request()->is('performance*') ? 'active' : '' }}" href="{{ route('Performance') }}">ผลงาน</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">สาขา</a>
+                            <a class="nav-link {{ request()->is('branch*') ? 'active' : '' }}" href="{{ route('Branch') }}">สาขา</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">เว็บใกล้เคียง</a>
+                            <a class="nav-link {{ request()->is('websites*') ? 'active' : '' }}" href="{{ route('Websites') }}">เว็บใกล้เคียง</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">วัตถุประสงค์</a>
-                        </li>
+                            <a class="nav-link {{ request()->is('objective*') ? 'active' : '' }}" href="{{ route('Objective') }}">วัตถุประสงค์</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ติดต่อ</a>
+                            <a class="nav-link {{ request()->is('contact*') ? 'active' : '' }}" href="{{ route('Contact') }}">ติดต่อ</a>
                         </li>
                     </ul>
                 </div>
@@ -229,6 +228,7 @@
                     }
                 };
             });
+
         </script>
 
         <!-- Scripts -->
