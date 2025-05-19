@@ -14,7 +14,7 @@
 
     <ul class="menu-inner py-1">
 
-        <li class="menu-header small text-uppercase"><span class="menu-header-text">จัดการข้อมูล</span></li>
+        <li class="menu-header small text-uppercase"><span class="menu-header-text">เกี่ยวกับเว็บไซต์</span></li>
 
         <li class="menu-item {{ request()->is('admin/services/web*') ||
             request()->is('admin/services/video*') ? 'active open' : '' }}">
@@ -42,6 +42,15 @@
             <a href="{{route('AdminPromotionsPage')}}" class="menu-link">
                 <i class='menu-icon tf-icons bx bx-folder' ></i>
                 <div data-i18n="Analytics">จัดการโปรโมชั่น</div>
+            </a>
+        </li>
+
+        <li class="menu-header small text-uppercase"><span class="menu-header-text">SOFIN ร้านอาหารออนไลน์</span></li>
+
+        <li class="menu-item {{ request()->is('admin/sofin_promotions*') ? 'active' : '' }}">
+            <a href="{{route('AdminSofinPromotionPage')}}" class="menu-link">
+                <i class='menu-icon tf-icons bx bx-folder' ></i>
+                <div data-i18n="Analytics">จัดการโปรโมชั่น sofin</div>
             </a>
         </li>
 

@@ -7,6 +7,7 @@ use App\Http\Controllers\admin\Admin;
 use App\Http\Controllers\admin\services\ServicesController;
 use App\Http\Controllers\admin\promotions\PromotionsController;
 use App\Http\Controllers\admin\service_video\ServiceVideoController;
+use App\Http\Controllers\admin\sofin_promotions\SofinPromotionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,4 +56,10 @@ Route::middleware(['auth', 'checklogin'])->group(function () {
     Route::delete('/admin/promotions/delete/{id}', [PromotionsController::class, 'AdminPromotionsDelete'])->name('AdminPromotionsDelete');
     Route::put('/admin/promotions/update/{id}', [PromotionsController::class, 'AdminPromotionsUpdate'])->name('AdminPromotionsUpdate');
     Route::get('/admin/promotions/detail/{id}', [PromotionsController::class, 'AdminPromotionsDetail'])->name('AdminPromotionsDetail');
+
+    Route::get('/admin/sofin_promotions', [SofinPromotionController::class, 'AdminSofinPromotionPage'])->name('AdminSofinPromotionPage');
+    Route::post('/admin/sofin_promotions/create', [SofinPromotionController::class, 'AdminSofinPromotionsCreate'])->name('AdminSofinPromotionsCreate');
+    Route::get('/admin/sofin_promotions/detail/{id}', [SofinPromotionController::class, 'AdminSofinPromotionsDetail'])->name('AdminSofinPromotionsDetail');
+    Route::delete('/admin/sofin_promotions/delete/{id}', [SofinPromotionController::class, 'AdminSofinPromotionsDelete'])->name('AdminSofinPromotionsDelete');
+    Route::put('/admin/sofin_promotions/update/{id}', [SofinPromotionController::class, 'AdminSofinPromotionsUpdate'])->name('AdminSofinPromotionsUpdate');
 });
